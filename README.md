@@ -26,8 +26,13 @@ It cannot be stressed enough, at how important the relationship between alpha, p
 
 ### Preprocessing, Data Anomalies and Outliers
 
-On the other end of problem formulation is formatting the data to actually answer said question. You'll encounter this most explicitly in the final lab of this section. There, you'll have to transform your data into an appropriate format before conducting the statistical test. Furthermore, it is important to note how idiosyncrasies in your data can impact results. For example, monumental outliers can drastically impact the outcome of statistical tests. Whether or not to remove these data points can be a source of contention and will vary upon the circumstance. Similarly, it should go without saying that erroneous data or faulty data will clearly degrade statistical tests. All in all, it's always important to get familiar with the structure of the data and the context of the question being asked before diving into the statistics themselves.
+On the other end of problem formulation, is formatting the data to actually answer said question. You'll encounter this most explicitly in the final lab of this section. There, you'll have to transform your data into an appropriate format before conducting the statistical test. Furthermore, it is important to note how idiosyncrasies in your data can impact results. For example, monumental outliers can drastically impact the outcome of statistical tests. Whether or not to remove these data points can be a source of contention and will vary upon the circumstance. Similarly, it should go without saying that erroneous data or faulty data will clearly degrade statistical tests. All in all, it's always important to get familiar with the structure of the data and the context of the question being asked before diving into the statistics themselves.
 
 ## Summary 
 
 Time to have at it! Dive in and start practicing some hypothesis testing!
+
+
+```python
+
+```
