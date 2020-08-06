@@ -9,7 +9,7 @@ In this section, you'll get to develop your skills regarding AB testing. Before 
 
 ## Experimental Design
 
-You've seen that a lot goes into the proper design of statistical tests. You've learned about Goodheart's law as well as the multiple comparisons problem. Additionally, you've also seen that a p-value by itself is prone to misinterpretation if not presented with other relevant design parameters such as effect size, sample size, and $\alpha$. With that, here are three overarching considerations to keep in mind.
+You've seen that a lot goes into the proper design of statistical tests. You've learned about Goodheart's law as well as the multiple comparisons problem. Additionally, you've also seen that a p-value by itself is prone to misinterpretation if not presented with other relevant design parameters such as effect size, sample size, and  <img src="https://render.githubusercontent.com/render/math?math=\alpha"> . With that, here are three overarching considerations to keep in mind.
 
 ### Well Formulated Questions
 
@@ -17,7 +17,7 @@ A well-formulated question is essential to a good statistical experiment. This i
 
 ### Choosing Appropriate Parameters
 
-It cannot be stressed enough how important the relationship between $\alpha$, power, sample size and effect size is. While larger sample sizes provide more powerful tests, one should also realize that tiny effects can produce significant p-values with large samples. While this may be interesting, such small practical differences might have little to no applicable value. Furthermore, avoiding pitfalls such as the multiple comparisons problem is also important. Recall that if you perform multiple t-tests, The probability of encountering a type I error will continue to increase with additional tests. (Each test will still have the corresponding alpha value set, but collectively, the chance that a false positive type I error exists in your conclusions increases.)
+It cannot be stressed enough how important the relationship between  <img src="https://render.githubusercontent.com/render/math?math=\alpha"> , power, sample size and effect size is. While larger sample sizes provide more powerful tests, one should also realize that tiny effects can produce significant p-values with large samples. While this may be interesting, such small practical differences might have little to no applicable value. Furthermore, avoiding pitfalls such as the multiple comparisons problem is also important. Recall that if you perform multiple t-tests, The probability of encountering a type I error will continue to increase with additional tests. (Each test will still have the corresponding alpha value set, but collectively, the chance that a false positive type I error exists in your conclusions increases.)
 
 ### Preprocessing, Data Anomalies and Outliers
 
